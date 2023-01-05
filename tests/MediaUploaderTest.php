@@ -1,13 +1,13 @@
 <?php
 
-namespace Optix\Media\Tests;
+namespace Shm379\Media\Tests;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
-use Optix\Media\MediaUploader;
-use Optix\Media\Models\Media;
-use Optix\Media\Tests\Models\Media as CustomMedia;
+use Shm379\Media\MediaUploader;
+use Shm379\Media\Models\Media;
+use Shm379\Media\Tests\Models\Media as CustomMedia;
 
 class MediaUploaderTest extends TestCase
 {

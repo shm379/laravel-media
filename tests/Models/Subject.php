@@ -1,9 +1,9 @@
 <?php
 
-namespace Optix\Media\Tests\Models;
+namespace Shm379\Media\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Optix\Media\HasMedia;
+use Shm379\Media\HasMedia;
 
 class Subject extends Model
 {

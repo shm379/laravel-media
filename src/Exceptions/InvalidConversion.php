@@ -1,6 +1,6 @@
 <?php
 
-namespace Optix\Media\Exceptions;
+namespace Shm379\Media\Exceptions;
 
 use Exception;
 

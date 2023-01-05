@@ -1,11 +1,11 @@
 <?php
 
-namespace Optix\Media;
+namespace Shm379\Media;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Intervention\Image\ImageManager;
-use Optix\Media\Exceptions\InvalidConversion;
-use Optix\Media\Models\Media;
+use Shm379\Media\Exceptions\InvalidConversion;
+use Shm379\Media\Models\Media;
 
 class ImageManipulator
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Optix\Media;
+namespace Shm379\Media;
 
-use Optix\Media\Exceptions\InvalidConversion;
+use Shm379\Media\Exceptions\InvalidConversion;
 
 class ConversionRegistry
 {

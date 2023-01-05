@@ -1,15 +1,15 @@
 <?php
 
-namespace Optix\Media\Tests;
+namespace Shm379\Media\Tests;
 
 use Illuminate\Filesystem\Filesystem;
 use Intervention\Image\Image;
 use Intervention\Image\ImageManager;
 use Mockery;
-use Optix\Media\ConversionRegistry;
-use Optix\Media\Exceptions\InvalidConversion;
-use Optix\Media\ImageManipulator;
-use Optix\Media\Models\Media;
+use Shm379\Media\ConversionRegistry;
+use Shm379\Media\Exceptions\InvalidConversion;
+use Shm379\Media\ImageManipulator;
+use Shm379\Media\Models\Media;
 
 class ImageManipulatorTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Optix\Media\Tests;
+namespace Shm379\Media\Tests;
 
-use Optix\Media\ConversionRegistry;
-use Optix\Media\Exceptions\InvalidConversion;
+use Shm379\Media\ConversionRegistry;
+use Shm379\Media\Exceptions\InvalidConversion;
 
 class ConversionRegistryTest extends TestCase
 {

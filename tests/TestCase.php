@@ -1,8 +1,8 @@
 <?php
 
-namespace Optix\Media\Tests;
+namespace Shm379\Media\Tests;
 
-use Optix\Media\MediaServiceProvider;
+use Shm379\Media\MediaServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

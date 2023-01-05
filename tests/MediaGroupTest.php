@@ -1,8 +1,8 @@
 <?php
 
-namespace Optix\Media\Tests;
+namespace Shm379\Media\Tests;
 
-use Optix\Media\MediaGroup;
+use Shm379\Media\MediaGroup;
 
 class MediaGroupTest extends TestCase
 {

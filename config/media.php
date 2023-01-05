@@ -16,6 +16,6 @@ return [
     /*
      * The fully qualified class name of the media model.
      */
-    'model' => Optix\Media\Models\Media::class,
+    'model' => Shm379\Media\Models\Media::class,
 
 ];

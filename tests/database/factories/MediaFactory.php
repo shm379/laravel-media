@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator as Faker;
-use Optix\Media\Models\Media;
+use Shm379\Media\Models\Media;
 
 $factory->define(Media::class, function (Faker $faker) {
     return [

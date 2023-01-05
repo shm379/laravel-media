@@ -1,11 +1,11 @@
 <?php
 
-namespace Optix\Media;
+namespace Shm379\Media;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Optix\Media\Jobs\PerformConversions;
-use Optix\Media\Models\Media;
+use Shm379\Media\Jobs\PerformConversions;
+use Shm379\Media\Models\Media;
 
 trait HasMedia
 {

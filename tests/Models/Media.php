@@ -1,8 +1,8 @@
 <?php
 
-namespace Optix\Media\Tests\Models;
+namespace Shm379\Media\Tests\Models;
 
-use Optix\Media\Models\Media as BaseMedia;
+use Shm379\Media\Models\Media as BaseMedia;
 
 class Media extends BaseMedia
 {

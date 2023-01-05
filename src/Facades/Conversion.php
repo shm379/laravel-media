@@ -1,9 +1,9 @@
 <?php
 
-namespace Optix\Media\Facades;
+namespace Shm379\Media\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Optix\Media\ConversionRegistry;
+use Shm379\Media\ConversionRegistry;
 
 class Conversion extends Facade
 {

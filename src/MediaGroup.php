@@ -1,6 +1,6 @@
 <?php
 
-namespace Optix\Media;
+namespace Shm379\Media;
 
 class MediaGroup
 {

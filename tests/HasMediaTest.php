@@ -1,14 +1,14 @@
 <?php
 
-namespace Optix\Media\Tests;
+namespace Shm379\Media\Tests;
 
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Queue;
-use Optix\Media\Jobs\PerformConversions;
-use Optix\Media\Models\Media;
-use Optix\Media\Tests\Models\Subject;
+use Shm379\Media\Jobs\PerformConversions;
+use Shm379\Media\Models\Media;
+use Shm379\Media\Tests\Models\Subject;
 
 class HasMediaTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Optix\Media\Tests;
+namespace Shm379\Media\Tests;
 
 use Illuminate\Filesystem\Filesystem;
 use Mockery;
-use Optix\Media\Models\Media;
+use Shm379\Media\Models\Media;
 
 class MediaTest extends TestCase
 {

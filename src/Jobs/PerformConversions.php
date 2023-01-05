@@ -1,14 +1,14 @@
 <?php
 
-namespace Optix\Media\Jobs;
+namespace Shm379\Media\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Optix\Media\ImageManipulator;
-use Optix\Media\Models\Media;
+use Shm379\Media\ImageManipulator;
+use Shm379\Media\Models\Media;
 
 class PerformConversions implements ShouldQueue
 {
