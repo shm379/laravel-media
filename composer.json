@@ -1,10 +1,10 @@
 {
-    "name": "optix/media",
+    "name": "shm379/media",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jack Robertson",
-            "email": "jack@optixsolutions.co.uk"
+            "name": "Hussain Mousavi",
+            "email": "shm379@gmail.com"
         }
     ],
     "require": {
@@ -18,18 +18,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Optix\\Media\\": "src/"
+            "Shm379\\Media\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Optix\\Media\\Tests\\": "tests/"
+            "Shm379\\Media\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Optix\\Media\\MediaServiceProvider"
+                "Shm379\\Media\\MediaServiceProvider"
             ]
         }
     }

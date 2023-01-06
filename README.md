@@ -11,13 +11,13 @@ An easy solution to attach files to your eloquent models, with image manipulatio
 You can install the package via composer:
 
 ```bash
-composer require optix/media
+composer require shm379/media
 ```
 
 Once installed, you should publish the provided assets to create the necessary migration and config files.
 
 ```bash
-php artisan vendor:publish --provider="Optix\Media\MediaServiceProvider"
+php artisan vendor:publish --provider="Shm379\Media\MediaServiceProvider"
 ```
 
 ## Key concepts
@@ -46,7 +46,7 @@ There are a few key concepts that should be understood before continuing:
 
 ### Upload media
 
-You should use the `Optix\Media\MediaUploader` class to handle file uploads.
+You should use the `Shm379\Media\MediaUploader` class to handle file uploads.
 
 By default, this class will update files to the disk specified in the media config. It saves them as a sanitised
 version of their original file name, and creates a media record in the database with the file's details.
@@ -68,7 +68,7 @@ $media = MediaUploader::fromFile($file)
 
 ### Associate media with a model
 
-In order to associate a media item with a model, you must first include the `Optix\Media\HasMedia` trait.
+In order to associate a media item with a model, you must first include the `Shm379\Media\HasMedia` trait.
 
 ```php
 class Post extends Model
@@ -155,7 +155,7 @@ To get started, you should first register a conversion in one of your applicatio
 
 ```php
 use Intervention\Image\Image;
-use Optix\Media\Facades\Conversion;
+use Shm379\Media\Facades\Conversion;
 
 class AppServiceProvider extends ServiceProvider
 {
